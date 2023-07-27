@@ -18,3 +18,5 @@ var pin; // Variable Declaration
 
 console.log(pin);
 
+var salary = null;
+console.log(typeof salary);
