@@ -58,7 +58,9 @@ console.log(`Result is ${result}`);
 
 console.log(`------------------------------------`);
 
-var result = greet.split(' ');
+// split is used to count the words
+
+var result = greet.split(' '); 
 
 var words = result.length;
 
@@ -73,3 +75,19 @@ var greet = "      Good Morning      ";
 var result = greet.trim();
 
 console.log(`Before Trim String length : ${greet.length}, After Trim string is ${result} and it's length is ${result.length}`);
+
+console.log(`------------------------------------`);
+
+var greet = "      Good Morning      ";
+
+var result = greet.trim();
+
+console.log(`Before Trim String length : ${greet.length}, After Trim string is ${result} and it's length is ${result.length}`);
+
+var resultTrimEnd = greet.trimEnd();
+
+var trimEndLength = resultTrimEnd.length; 
+
+var endSpaces = greet.length - trimEndLength;
+
+console.log(` End Spaces is : ${endSpaces} `);
