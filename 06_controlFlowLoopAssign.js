@@ -55,19 +55,41 @@ console.log(`=======================step 2 : ==================================`
 sum();
 console.log(`=======================step 3 : ==================================`);
 
-// function oddPositionedChars(str) {
+function oddPositionedChars(str) {
 
-//     for (let index = 0; index < str.length; index++) {
-//          const char = str.charAt(index)
+    for (let index = 0; index < str.length; index++) {
+         const char = str.charAt(index);
+
+         if (index%2!=0 && char!=` `) {
+            console.log(`only odd positioed stats is : ${index}`);
+            
+        }
         
-//     }
-//     if (index%2!=0 && char!=` `) {
-//         console.log(`only odd positioed stars is : ${index}`);
         
-//     }
+    }
     
-// }
-//  oddPositionedChars(`Hard work always pays back`);
+    
+}
+ oddPositionedChars(`Hard work always pays back`);
+ oddPositionedChars(`Soon I will be aAngular IT champ`);
+console.log(`=======================step 4 : ==================================`);
+
+function reverseString(str){
+    reverse ="";
+
+    for (let index = str.length-1; index >=0; index--) {
+        const char = str.charAt(index);
+        if (char != ``) {
+            reverse = reverse.concat(char);
+        }
+        
+    }
+   console.log(reverse);
+    
+}
+
+reverseString (`Hard work always pays back`);
+reverseString (`Soon I will be aAngular IT champ`)
 
 
 
