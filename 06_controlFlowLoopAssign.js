@@ -55,19 +55,19 @@ console.log(`=======================step 2 : ==================================`
 sum();
 console.log(`=======================step 3 : ==================================`);
 
-function oddPositionedChars(str) {
+// function oddPositionedChars(str) {
 
-    for (let index = 0; index < str.length; index++) {
-         const char = str.charAt(index)
+//     for (let index = 0; index < str.length; index++) {
+//          const char = str.charAt(index)
         
-    }
-    if (index%2!=0 && char!=` `) {
-        console.log(`only odd positioed stars is : ${char}`);
+//     }
+//     if (index%2!=0 && char!=` `) {
+//         console.log(`only odd positioed stars is : ${index}`);
         
-    }
+//     }
     
-}
- oddPositionedChars(`Hard work always pays back`);
+// }
+//  oddPositionedChars(`Hard work always pays back`);
 
 
 
