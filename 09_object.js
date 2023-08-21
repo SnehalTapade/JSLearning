@@ -84,14 +84,30 @@ let bank = {
 
         state: "MH",
 
-        country : "India"
+        country : "India",
 
-    }
+        getAddress: function(){
+
+           console.log(`Bank Address: ${this.street}, ${this.landmark}, ${this.pin}, ${this.telPhone}, ${city}, ${this.state}, ${this.country}`);
+
+        }
+
+    },
+
+    empNames : ["Jenny", "Elon", "Warrren", "Stew"]
 
 }
 
-let city1= bank.address.city
-console.log(city1);
+ 
 
-let del1= delete telPhone
-console.log(del1);
+let city = bank.address.city;
+
+bank.address.country = "Maharashtra";
+
+bank.empNames.pop();
+
+bank.empNames.unshift("Mark");
+
+ 
+
+bank.address.getAddress();
