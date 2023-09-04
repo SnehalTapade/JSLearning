@@ -11,14 +11,39 @@
 
 
 
- function squareOfWordLength(){
+ function squareOfWordLength(str){
+      var str = "JavaScript";
+      var result = str.length
+      console.log(`The length of string is : ${result}`);
 
-    // let text = "Hello World!";
-    // let length = text.length;
-    var str="JavaScript";
-    var length = str.length;
+      var word = result * result;
+      console.log(`squareOfWordLength : ${word}`);
+          
+ }
+  var word = squareOfWordLength("JavaScript");
+
+  
+
+ var word= squareOfWordLength("Google Chrome");
+ var word= squareOfWordLength("Developer Smart");
+
+
+ console.log(`================================`);
+
+ var string = function(arg){
+
+   var str = "I am angular developer";
+   var result = str.length
+   var res = str.split(" ")
+   console.log(`The length of string is : ${result} and the words are ${res}` );
+
+   var multiply = result * res
+   console.log(`multiply by total no. of words : ${multiply}`);
+
+
 
  }
- squareOfWordLength();
-//  squareOfWordLength("the length of JavaScript is : ${length}");
-//  squareOfWordLength("Google chrome");
+ string("I am angular developer");
+
+
+

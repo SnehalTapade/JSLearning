@@ -33,7 +33,7 @@ var wordCount = function(word){
     var words = word.split(" ");
  
     // words.length is correct
-    var wordCount  = word.length;   
+    var wordCount  = words.length;   
  
     console.log(`In Given String - ${word}`);
  
