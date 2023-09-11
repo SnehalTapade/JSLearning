@@ -42,7 +42,7 @@ for (let index = 5; index <=50 ; index=index+5) {
 
 // console.log(`---------------------------`);
 
-// for (let index=7;index>=70;index=index-5) { 
+// for (let index=7;index>=70;index=index-7) { 
 //     console.log(index); 
     
 // }
