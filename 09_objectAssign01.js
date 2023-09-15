@@ -12,10 +12,11 @@ let professor = {
         country: "Germany",
 
         getdegree: function() {
-            this.engineering; this.PHD; this.country 
+           console.log(`getDegree: ${this.engineering}, ${this.PHD}, ${this.country}`);
         }
     } ,
 
+    certificates : ["Hacker Rank Participation" , "Certificate in IFE course" , "Certificate in Adv Programming"]
 
     
 }
@@ -35,3 +36,5 @@ console.log(`After modifying  is : ${modify}`);
 
 let newcertified= professor.certificates.push("Oracle certified");
 console.log(newcertified);
+
+professor.degree.certificates;
