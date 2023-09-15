@@ -20,7 +20,7 @@ let axisBank ={
     ifscNo : "AXIS00080", 
     interestRate : 10 ,
     showDetails(){
-
+        console.log(this.bankName, this.location);
         
     }
 }
@@ -33,7 +33,7 @@ let hdfcBank ={
     interestRate : 8,
     showDetails(){
 
-        
+        console.log(this.bankName, this.location);
     }
 }
 
@@ -45,12 +45,12 @@ let yesBank ={
     interestRate : 6,
     showDetails(){
 
-        
+        console.log(this.bankName, this.location);
     } 
 }
 
 sbiBank.showDetails();
-// console.log(sbi);
-// axisBank.showDetails();
-// hdfcBank.showDetails();
-// yesBank.showDetails();
+
+axisBank.showDetails();
+hdfcBank.showDetails();
+yesBank.showDetails();
